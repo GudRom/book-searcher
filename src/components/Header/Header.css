@@ -1,0 +1,124 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url(../../images/bg-header-xxl.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.header__header {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: var(--header-text-color);
+}
+
+.header__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.header__input {
+  height: 36px;
+  width: 50vw;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 183, 183);
+  padding-left: 10px;
+  margin-bottom: 16px;
+  transition: transform 0.2s ease-in;
+}
+
+.header__button {
+  position: absolute;
+  background-image: url(../../images/find-glass.svg);
+  height: 28px;
+  width: 28px;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 6px;
+  right: 10px;
+  background-color: transparent;
+  transition: transform 0.2s ease-in;
+}
+
+.header__select-block {
+  display: flex;
+  width: 50vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__label {
+  font-size: 1.1rem;
+  color: var(--header-text-color);
+  cursor: pointer;
+}
+
+.header__select {
+  width: 110px;
+  border-radius: 6px;
+  border: 1px solid rgb(192, 183, 183);
+  font-size: 1.1rem;
+  color: #666;
+  padding-left: 3px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in;
+}
+
+@media (any-hover: hover) {
+  .header__input:hover,
+  .header__input:focus,
+  .header__button:hover,
+  .header__select:hover {
+    transform: scale(105%);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header {
+    height: 300px;
+  }
+
+  .header__input {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    background-image: url(../../images/bg-header-s.jpg);
+  }
+
+  .header__select-block {
+    flex-direction: column;
+    width: 70vw;
+  }
+
+  .header__label:first-child {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    height: 200px;
+  }
+
+  .header__header {
+    margin: 10px auto;
+    font-size: 1.5rem;
+  }
+
+  .header__label {
+    font-size: 1rem;
+  }
+}

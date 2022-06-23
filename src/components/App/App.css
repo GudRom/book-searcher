@@ -1,0 +1,10 @@
+:root {
+    font-size: 1em;
+    box-sizing: border-box;
+    --book-border-color: rgb(153, 151, 147);
+    --book-page-color: rgb(185, 180, 165);
+    --main-bg-color: white;
+    --card-bg-color: antiquewhite;
+    --header-text-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
