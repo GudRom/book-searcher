@@ -10,6 +10,16 @@
   margin: 20px auto 0;
 }
 
+.main__list {
+  display: grid;
+  list-style: none;
+  padding: 0;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 96vw;
+  gap: 20px;
+  margin: 30px auto;
+}
+
 .main__button-more {
   width: 60px;
   height: 60px;
