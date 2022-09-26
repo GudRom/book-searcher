@@ -71,6 +71,7 @@
   color: #666;
   padding-left: 3px;
   cursor: pointer;
+  margin-left: 5px;
   transition: transform 0.2s ease-in;
 }
 

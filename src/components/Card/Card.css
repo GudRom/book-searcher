@@ -1,6 +1,11 @@
 .main__list-item {
     height: 400px;
     width: 100%;
+    cursor: pointer;
+}
+
+.main__link {
+    text-decoration: none;
 }
 
 .main__card {
@@ -15,7 +20,7 @@
 .main__card-img {
     width: 107px;
     height: 128px;
-    margin: 70px 110px;
+    margin: 70px 89px;
     box-shadow: 5px 5px 20px slategray;
 }
 
@@ -28,6 +33,7 @@
     color: slategray;
     text-transform: uppercase;
     margin: 0 0 0 10px;
+    text-decoration: underline;
 }
 
 .main__name {
@@ -35,12 +41,17 @@
     font-weight: 700;
     color: black;
     margin: 10px 0;
+    max-width: 95%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .main__author {
     font-size: 0.8rem;
     color: slategray;
     margin: 0;
+    max-width: 95%;
 }
 
 @media (any-hover: hover) {

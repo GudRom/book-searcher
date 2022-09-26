@@ -2,7 +2,7 @@
     top: 50%;
     transform: translateY(-50%);
     position: relative;
-    margin: 0 auto;
+    margin: 70px auto;
     border: 3px solid var(--book-border-color);
     width: 100px;
     height: 60px;
