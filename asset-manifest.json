@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/book-searcher/static/css/main.2b3e46c6.css",
-    "main.js": "/book-searcher/static/js/main.65e8b611.js",
-    "static/media/bg-header-xxl.jpg": "/book-searcher/static/media/bg-header-xxl.7403cdd0ee5a6c1c1cd7.jpg",
-    "static/media/bg-header-s.jpg": "/book-searcher/static/media/bg-header-s.3d4c4af1367c5fa57dff.jpg",
-    "static/media/find-glass.svg": "/book-searcher/static/media/find-glass.69b4186667205b935750.svg",
-    "index.html": "/book-searcher/index.html",
-    "main.2b3e46c6.css.map": "/book-searcher/static/css/main.2b3e46c6.css.map",
-    "main.65e8b611.js.map": "/book-searcher/static/js/main.65e8b611.js.map"
+    "main.css": "/static/css/main.628ec550.css",
+    "main.js": "/static/js/main.65e8b611.js",
+    "static/media/bg-header-xxl.jpg": "/static/media/bg-header-xxl.7403cdd0ee5a6c1c1cd7.jpg",
+    "static/media/bg-header-s.jpg": "/static/media/bg-header-s.3d4c4af1367c5fa57dff.jpg",
+    "static/media/find-glass.svg": "/static/media/find-glass.69b4186667205b935750.svg",
+    "index.html": "/index.html",
+    "main.628ec550.css.map": "/static/css/main.628ec550.css.map",
+    "main.65e8b611.js.map": "/static/js/main.65e8b611.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b3e46c6.css",
+    "static/css/main.628ec550.css",
     "static/js/main.65e8b611.js"
   ]
 }
